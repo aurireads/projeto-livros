@@ -1,11 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
 }
 
 img {
     width: 100%;
+}
+
+#output {
+    position: absolute;
+    bottom: 88%;
+    left: 54%;
+    transform: translate(-63%, 20%);
+    height: 15%;
+    width: 170px;
+    color: #824543;
+    text-align: center;
+    text-shadow: 3px 3px 4px #dad6ce;
 }
 
 .books__data {
@@ -53,12 +68,4 @@ button {
 button:active {
     box-shadow: inset -4px 4px 0 #824543;
     font-size: 0.9rem;
-}
-
-.output {
-    position: absolute;
-    bottom: 55%;
-    left: 50%;
-    transform: translate(-63%, 20%);
-    height: 18%;
 }

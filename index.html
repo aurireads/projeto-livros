@@ -6,8 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/style.css" />
-    <script defer src="index.js"></script>
-    <link rel="icon" href="/favicon/favicon.jpeg">
+    <link rel="icon" href="/favicon/favicon.jpg">
     <title>Livros Favoritos</title>
 </head>
 
@@ -18,13 +17,14 @@
         <div class="form">
             <input id="input" type="search" placeholder="Name" required>
             <button onclick="getbooks()">Search books</button>
-            <br>
-            <img src="" id="output" alt="imagem do livro">
         </div>
 
-
+        <div id="output">
+            <img class="cover" src="#" alt="">
+        </div>
     </main>
 
+    <script src="index.js"></script>
 
 </body>
 
